@@ -1,0 +1,4 @@
+git log    - show commit history
+git add    - stage files
+git commit - save changes
+git reset  - move HEAD
