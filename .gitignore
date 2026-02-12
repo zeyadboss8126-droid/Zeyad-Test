@@ -27,3 +27,4 @@ CMakeCache.txt
 
 # Zip files
 *.zip
+.vs/
