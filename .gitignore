@@ -2,3 +2,28 @@
 *.dll
 *.o
 build/
+# Build folders
+build/
+build_shared/
+Debug/
+Release/
+x64/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# Compiled files
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.exp
+
+# Zip files
+*.zip
