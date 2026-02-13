@@ -2,3 +2,5 @@
 *.dll
 *.o
 build/
+Worksheet5/html/
+Worksheet5/latex/
