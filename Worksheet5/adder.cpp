@@ -1,5 +1,6 @@
 #include "adder.h"
 
-extern "C" int add(int a, int b) {
+extern "C" ADDER_API int add(int a, int b)
+{
     return a + b;
 }

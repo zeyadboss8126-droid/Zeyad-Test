@@ -7,3 +7,9 @@ target_include_directories(maths PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 add_executable(calc calc.cpp)
 target_link_libraries(calc PRIVATE maths)
+install(TARGETS maths calc
+        RUNTIME DESTINATION bin
+        LIBRARY DESTINATION bin
+        ARCHIVE DESTINATION lib)
+
+include(CPack)
